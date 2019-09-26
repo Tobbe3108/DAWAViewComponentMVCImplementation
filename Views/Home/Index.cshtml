@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form method="post">
+            @await Component.InvokeAsync("DAWAViewComponent.Simple")
+            <input type="submit">
+        </form>
+</div>
